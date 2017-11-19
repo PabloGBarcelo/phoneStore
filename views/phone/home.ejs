@@ -1,0 +1,8 @@
+<h1>Home-Phone</h1>
+
+<ul>
+  <% result.forEach((phone) => { %>
+  <li><%= phone.name %></li>
+  <li><a href="/phones/<%= phone._id %>"> Ir a ver detalles</a></li>
+  <% })%>
+</ul>
